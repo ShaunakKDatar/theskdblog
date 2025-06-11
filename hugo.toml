@@ -13,6 +13,7 @@ relativeURLs = true
   fullWidthTheme = false
   centerTheme = true
   readingTime = true
+  favicon = "images/blogfavicon.ico"
 
 [languages]
   [languages.en]
