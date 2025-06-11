@@ -1,96 +1,49 @@
-baseURL = 'https://ShaunakKDatar.github.io/theskdblog/'
-languageCode = 'en-us'
-title = 'The SKD Blog'
-theme = 'risotto'
-DefaultContentLanguage = "en"
-enableInlineShortcodes = true
-# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
-# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
-ignoreErrors = ["error-remote-getjson"]
-
-# Automatically add content sections to main menu
-sectionPagesMenu = "main"
-
-[pagination]
-pagerSize = 3
+baseURL = "/"
+languageCode = "en-us"
+title = "The SKD Blog"
+theme = "re-terminal"
+pagerSize = 5
+canonifyURLs = true
+relativeURLs = true
 
 [params]
-noindex = false
+  contentTypeName = "posts"
+  themeColor = "blue"
+  showMenuItems = 3
+  fullWidthTheme = false
+  centerTheme = true
+  readingTime = true
 
-[params.theme]
-palette = "base16-dark"
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
 
-# Sidebar: about/bio
-[params.about]
-title = "TheSKDBlog"
-description = "A place for me to dump my thought and experiences"
-# unicode/emoji logo:
-logo = "🤗"
+  [languages.en.params]
+    title = "The SKD Blog"
+    subtitle = "embedded logs, drivers, bugs and bytes"
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
 
-[[params.socialLinks]]
-icon = "fa-brands fa-github"
-title = "GitHub"
-url = "https://github.com/ShaunakKDatar"
+    [languages.en.params.logo]
+      logoText = "shaunak@datar:~$"
+      logoHomeLink = "/"
 
-[[params.socialLinks]]
-icon = "fa-brands fa-twitter"
-title = "Twitter"
-url = "https://x.com/datar_shaunak?s=21"
+  [languages.en.menu]
+    [[languages.en.menu.main]]
+      identifier = "posts"
+      name = "Posts"
+      url = "/posts"
+      weight = 1
 
-[[params.socialLinks]]
-icon = "fa-solid fa-envelope"
-title = "Email"
-url = "mailto:shaunakkdatar@gmail.com"
-
-[menu]
-
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 10
-
-[taxonomies]
-category = "categories"
-tag = "tags"
-series = "series"
-
-# For hugo >= 0.60.0, enable inline HTML
-[markup.goldmark.renderer]
-unsafe = true
+    [[languages.en.menu.main]]
+      identifier = "about"
+      name = "About"
+      url = "/about"
+      weight = 2
 
 [markup]
-
-  # Table of contents
-  # Add toc = true to content front matter to enable
-  [markup.tableOfContents]
-    startLevel = 2
-    endLevel   = 3
-    ordered    = true
-
-[privacy]
-
-  [privacy.vimeo]
-    disabled = false
-    simple = true
-
-  [privacy.twitter]
-    disabled = false
-    enableDNT = true
-    simple = true
-
-  [privacy.instagram]
-    disabled = false
-    simple = true
-
-  [privacy.youtube]
-    disabled = false
-    privacyEnhanced = true
-
-[services]
-
-  [services.instagram]
-    disableInlineCSS = true
-
-  [services.twitter]
-    disableInlineCSS = true
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

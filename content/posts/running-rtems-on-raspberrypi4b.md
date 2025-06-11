@@ -1,7 +1,19 @@
 +++
 title = "Running RTEMS on Raspberry Pi 4B"
-date = "2025-06-11T16:14:45+05:30"
+date = "2025-06-11T21:42:22+05:30"
+author = "Shaunak Datar"
+authorTwitter = "datar_shaunak" # your X handle, if you want it shown
+#cover = "images/rtems-rpi4.jpg" # optional: set a relevant image path
+coverCaption = "RTEMS booting on a Raspberry Pi 4B" # optional
+tags = ["RTEMS", "Raspberry Pi", "Bare-metal", "GSoC"]
+keywords = ["RTEMS on Raspberry Pi", "bare-metal RTOS", "GSoC 2025", "Shaunak Datar blog", "rtems raspberry pi tutorial"]
+description = "A detailed breakdown of how I got RTEMS running on a Raspberry Pi 4B — from board bring-up to driver development."
+showFullContent = true
+readingTime = true
+hideComments = false
+color = "blue" # pick one from your theme palette or leave empty
 +++
+
 
 **RTEMS (Real-Time Executive for Multiprocessor Systems)** is a real-time operating system used in embedded systems, offering a rich set of Board Support Packages (BSPs) for various platforms. One such platform is the **Raspberry Pi 4B**, a popular board among hobbyists, educators, and industry professionals. In this post, I’ll walk you through setting up RTEMS on the Raspberry Pi 4B from scratch.
 
@@ -181,11 +193,7 @@ ls /dev/cu.*
 Use `minicom` or any serial terminal at **115200 baud**, **8N1** settings.
 
 You should see something like this:
-
-<p align="center">
-  <img src="/images/hello-world-rtems-rpi.png" alt="RTEMS Hello World Output" width="600">
-</p>
-
+![RTEMS Hello World on Raspberry Pi](/images/hello-world-rtems-rpi.png)
 
 ---
 
@@ -194,3 +202,4 @@ That’s it! You’ve now got RTEMS running on your Raspberry Pi 4B.
 Want to know more about my work on this? Check out my [GSoC 2025 RTEMS project](https://summerofcode.withgoogle.com/programs/2025/projects/CUL4f3Nh).
 
 Happy hacking! 🤓
+

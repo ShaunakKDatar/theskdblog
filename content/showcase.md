@@ -1,7 +1,8 @@
----
-title: "Shaunak Datar"
-description: "Low-level logs, embedded experiments, and the occasional wild idea."
----
++++
+date = '2025-06-11T21:41:57+05:30'
+draft = false
+title = 'Showcase'
++++
 
 👋🏽 Hey there — I’m Shaunak, an electronics engineer in the making at VJTI Mumbai.
 

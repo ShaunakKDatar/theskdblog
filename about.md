@@ -1,11 +1,8 @@
----
-title: "About"
-author: "Shaunak Datar"
-build:
-  render: always
-  list: never
-  publishResources: false
----
++++
+date = '2025-06-11T21:23:21+05:30'
+draft = false
+title = 'About'
++++
 
 Hi, I’m Shaunak Datar — an electronics engineering student at VJTI, Mumbai, obsessed with systems that live close to the metal.
 
