@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on The SKD Blog</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on The SKD Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Jun 2025 16:14:45 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Running RTEMS on Raspberry Pi 4B</title>
+      <link>http://localhost:1313/posts/running-rtems-on-rpi4b/</link>
+      <pubDate>Wed, 11 Jun 2025 16:14:45 +0530</pubDate>
+      <guid>http://localhost:1313/posts/running-rtems-on-rpi4b/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;RTEMS (Real-Time Executive for Multiprocessor Systems)&lt;/strong&gt; is a real-time operating system used in embedded systems, offering a rich set of Board Support Packages (BSPs) for various platforms. One such platform is the &lt;strong&gt;Raspberry Pi 4B&lt;/strong&gt;, a popular board among hobbyists, educators, and industry professionals. In this post, I’ll walk you through setting up RTEMS on the Raspberry Pi 4B from scratch.&lt;/p&gt;&#xA;&lt;p&gt;Let’s dive in!&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;-setting-up-the-environment&#34;&gt;🚀 Setting Up the Environment&lt;/h1&gt;&#xA;&lt;p&gt;First, create a working directory. Ensure that &lt;code&gt;git&lt;/code&gt; is installed on your host machine.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

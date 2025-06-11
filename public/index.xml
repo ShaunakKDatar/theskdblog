@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shaunak Datar on The SKD Blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Shaunak Datar on The SKD Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Jun 2025 16:16:49 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Wed, 11 Jun 2025 16:16:49 +0530</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;Hi, I’m Shaunak Datar — an electronics engineering student at VJTI, Mumbai, obsessed with systems that live close to the metal.&lt;/p&gt;&#xA;&lt;p&gt;Most of my time goes into building custom development boards, writing bare-metal drivers, and working on my own operating system for the Raspberry Pi. I enjoy reverse engineering datasheets, bringing up hardware from scratch, and poking at memory-mapped registers until something cool happens.&lt;/p&gt;&#xA;&lt;p&gt;Currently, I’m contributing to &lt;a href=&#34;https://summerofcode.withgoogle.com/programs/2025/projects/CUL4f3Nh&#34;&gt;RTEMS as a Google Summer of Code 2025 student&lt;/a&gt;, adding support for peripherals like PWM, I2C, and DMA on the Raspberry Pi 4. I also like exploring compilers, messing with LLVM, and learning Rust when I’m not knee-deep in embedded code.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Running RTEMS on Raspberry Pi 4B</title>
+      <link>http://localhost:1313/posts/running-rtems-on-rpi4b/</link>
+      <pubDate>Wed, 11 Jun 2025 16:14:45 +0530</pubDate>
+      <guid>http://localhost:1313/posts/running-rtems-on-rpi4b/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;RTEMS (Real-Time Executive for Multiprocessor Systems)&lt;/strong&gt; is a real-time operating system used in embedded systems, offering a rich set of Board Support Packages (BSPs) for various platforms. One such platform is the &lt;strong&gt;Raspberry Pi 4B&lt;/strong&gt;, a popular board among hobbyists, educators, and industry professionals. In this post, I’ll walk you through setting up RTEMS on the Raspberry Pi 4B from scratch.&lt;/p&gt;&#xA;&lt;p&gt;Let’s dive in!&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;-setting-up-the-environment&#34;&gt;🚀 Setting Up the Environment&lt;/h1&gt;&#xA;&lt;p&gt;First, create a working directory. Ensure that &lt;code&gt;git&lt;/code&gt; is installed on your host machine.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
