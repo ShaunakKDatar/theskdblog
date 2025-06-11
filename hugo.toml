@@ -1,4 +1,4 @@
-baseURL = 'https://theskdblog.github.io'
+baseURL = 'https://ShaunakKDatar.github.io/theskdblog/'
 languageCode = 'en-us'
 title = 'The SKD Blog'
 theme = 'risotto'
