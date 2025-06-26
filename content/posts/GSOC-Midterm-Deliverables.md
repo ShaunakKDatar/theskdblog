@@ -75,11 +75,11 @@ These weeks have flown by! I've written and debugged a lot of code, fixed format
 
 After syncing up with my mentors, here’s what we’ve decided as the midterm deliverables:
 
-- [ ] I2C driver merged upstream
+- [x] I2C driver merged upstream
 - [x] PWM driver merged upstream
 - [ ] Significant progress on either DMA or Mailbox support
 
-The PWM work is done and upstream. I2C works well too — I’m just wrapping up some formatting and quality improvements. Meanwhile, I’ve started exploring the DMA peripheral and will be diving into implementation soon.
+The PWM and I2C work has been throughly tested and upstreamed. I have started work on implementing the DMA controller.
 
 With 2–3 weeks left until evaluations, I'm focused and hopeful. Let’s keep building and contributing to this wonderful ecosystem called **open source**.
 
