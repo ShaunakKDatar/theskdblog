@@ -1,8 +1,8 @@
 +++
 title = "Bits to BSPs – GSoC Midterm Recap"
 date = "2025-06-25T00:48:25+05:30"
-author = ""
-authorTwitter = "" # do not include @
+author = "Shaunak Datar"
+authorTwitter = "datar_shaunak" # do not include @
 cover = ""
 coverCaption = ""
 tags = ["RTEMS", "GSoC", "Raspberry Pi", "Bare-metal", "Device-Drivers"]
@@ -85,7 +85,7 @@ With 2–3 weeks left until evaluations, I'm focused and hopeful. Let’s keep b
 
 ---
 
-That’s it for now — but there’s a lot more coming soon!  
+That’s it for now — but there’s a lot more coming soon!
 If you’re into embedded systems, RTEMS, or just love geeking out over low-level stuff, I’d love to chat. Feel free to reach out anytime!
 
 Until next time — keep building, keep tinkering, and keep contributing.  
