@@ -9,7 +9,7 @@ tags = ["RTEMS", "GSoC", "Raspberry Pi", "Bare-metal", "Device-Drivers"]
 keywords = ["GSoC 2025", "RTEMS BSP", "Raspberry Pi 4B", "RTEMS device driver", "I2C PWM DMA Mailbox RTEMS", "Shaunak Datar GSoC"]
 description = ""
 showFullContent = false
-readingTime = false
+readingTime = true
 hideComments = false
 color = "" #color from the theme settings
 +++
